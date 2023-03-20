@@ -12,6 +12,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/device" />
+            <option value="$PROJECT_DIR$/filedialog" />
+            <option value="$PROJECT_DIR$/junior" />
+            <option value="$PROJECT_DIR$/media" />
             <option value="$PROJECT_DIR$/middle" />
             <option value="$PROJECT_DIR$/storage" />
           </set>
