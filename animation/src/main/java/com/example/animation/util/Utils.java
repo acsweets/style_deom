@@ -1,11 +1,11 @@
-package com.example.junior.util;
+package com.example.animation.util;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
 /**
- * Created by shenanigan on 2017/9/11.
+ * Created by ouyangshen on 2017/9/11.
  */
 public class Utils {
     // 根据手机的分辨率从 dp 的单位 转成为 px(像素)
