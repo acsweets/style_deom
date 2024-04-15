@@ -32,11 +32,12 @@ public class MainActivity extends AppCompatActivity {
     // 跳到下个页面
     private void goNextPage() {
         TextView tv_hello = findViewById(R.id.tv_hello);
-        tv_hello.setText("3秒后进入下个页面");
-        // 延迟3秒（3000毫秒）后启动任务mGoNext
-        new Handler(Objects.requireNonNull(Looper.myLooper())).postDelayed(mGoNext, 3000);
+//        tv_hello.setText("3秒后进入下个页面");
+//        // 延迟3秒（3000毫秒）后启动任务mGoNext
+//        new Handler(Objects.requireNonNull(Looper.myLooper())).postDelayed(mGoNext, 3000);
     }
 
+    //用于在单独的线程上启动 Main2Activity,这样可以避免阻塞主 UI 线程。当进行耗时操作(如网络请求或复杂计算)时,这种做法可以使应用程序保持响应式和高效。
     private Runnable mGoNext = new Runnable() {
         @Override
         public void run() {
