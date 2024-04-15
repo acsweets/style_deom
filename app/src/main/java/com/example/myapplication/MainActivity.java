@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
+//传一个v  通过v的id找到视图
     public void onClick(View v) {
         if (v.getId() == R.id.btn_px) {
             Intent intent = new Intent(this, PxActivity.class);
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         } else if (v.getId() == R.id.btn_calculator) {
             Intent intent = new Intent(this, CalculatorActivity.class);
-            startActivity(intent);
+            startActivity(intent); //页面跳转
         }
     }
 
